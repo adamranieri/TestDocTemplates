@@ -1,0 +1,30 @@
+- A defect report usually contains
+  - A Unique ID
+  - Title
+  - Short summary
+  - Date of disovery 
+  - Who Discovered it
+  - The Test Object it occured on
+  - Steps to reproduce
+  - Possing suggestions on how to fix it
+  - Supporting evidence
+    - Screenshots
+    - Stacktraces
+  - Priority
+  - Severity
+  - Expected Behavior vs Actual Behavior
+  - State of defect
+    - Open
+    - Deferred
+    - Closed
+    - re-opended
+    - Waiting to be fixed
+    - etc...
+  - It's connection to test cases
+    - What Test cases it causes to fail
+    - What Test case discovered it
+- **There is no perfect format**
+  - The exact structure of a defect report will change based on the project and organization
+  - Some might use word documents or markdown
+  - Most will use a tool like HP ALM or Jira for writing defects
+  - Typically a Test plan will say how to format tests
