@@ -15,6 +15,56 @@
   - Providing templates to be used for reporting, constructing tests, reporting tests etc...
   - Entry and exit criteria
 
+```markdown
+# Test Plan for Paul's Lumber Pricing Calculator
+
+### Level of testing
+{Unit | Integration | System | Acceptance}
+
+### Test Objectives
+{List of Test Objective}
+
+### Test Approach/Strategy
+{list of approach techniques to keep in mind while testing}
+
+### Test Object(s)
+{What thing is being tested}
+
+### In Scope
+{Types of testing and features in scope}
+
+### Out of scope
+{Types of testing and features not covered by testing}
+
+
+### Entry Criteria
+{What must be provided for testing to begin}
+
+### Exit Criteria
+{What must be finished fore testing to be considered done}
+
+### Test Schedule
+
+| Date  | Milestone|
+|-------|----------|
+|       |          |
+
+### Testers
+
+|Tester | Role | Responsibility |
+|-------|------|----------------|
+|       |      |                |
+
+
+### Reporting and Templates
+{How reporting will be handled. What reporting software is to be used. Templates etc..}
+
+| Document | Link To Template |
+|----------|------|
+
+
+```
+
 # Example
 ---------------------------
 # Test Plan for Paul's Lumber Pricing Calculator
@@ -27,7 +77,7 @@ Integration
   - Correct JSON and status code
 - Ensure that the front-end is able to communicate with the backend server without errors.
 
-### Test Approach
+### Test Approach/Strategy
 - Regression-Averse
   - Use an API like Postman tool to ensure test reusability
     - API tests should be stored as a postman collection
@@ -53,15 +103,21 @@ Integration
 
 ### Entry Criteria
 - The backend pto service provided as an .exe file
+  - [link to exe file](notreal)
 - An html web page that contains the pricing calculator
+  - [link to repo containing webpage](notreal)
+- OpenAPI document listing current endpoints
+  - [link](notreal)
 - **Test Environment**
   - Testing will be performed on the Tester's local machine
   - The .exe is expected to work on a windows OS
 
 ### Exit Criteria
-- All tests have been executed
+- Postitive tests for all routes have been executed.
 - All defect reports are in GitHub
+  - [report repo](notreal)
 - Test Summary Report completed and in Github
+  - [report repo](notreal)
 - An exported JSON of the postman collection is in Github
 
 ### Test Schedule
@@ -81,7 +137,10 @@ Integration
 | Mark  | API Tester | Validating documentation against endpoints |
 
 
-### Document Templates
-All defects and test reports should be put in this [repo](notreal).Each Defect should be it's own markdown page. There should be one Test Summary report written in markdown.
+### Reporting and Templates
+All defects and test reports should be put in this [repo](notreal).Each Defect should be it's own markdown page. There should be one Test Summary report written in markdown. The test summary will be presented to DevOps and Development team.
 
-#### Defects
+| Document | Link To Template |
+|----------|------|
+| Defect Report | [link](notreal) |
+| Test Summary | [link](notreal) |
