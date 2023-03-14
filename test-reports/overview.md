@@ -1,0 +1,18 @@
+- **Test Report**
+  - A document describing how testing is going for a test activity
+  - Test Activity could be all unit tests for instance
+  - Should include 
+    - test metrics
+    - Any blockers in testing
+    - Progress made related to test plan
+     - Summary of tests peformed
+    - Comments about the quality of the test object
+    - Any deviations from the test plan
+  - Should be written with an audience in mind
+    - Stakeholder
+    - Development team
+    - Test Manager
+- *Test Progress Report*
+  - Report made during testing activity
+- *Test Summary Report*
+  - Report made at end of testing activity

@@ -1,28 +1,8 @@
-- **Test Report**
-  - A document describing how testing is going for a test activity
-  - Test Activity could be all unit tests for instance
-  - Should include 
-    - test metrics
-    - Any blockers in testing
-    - Progress made related to test plan
-     - Summary of tests peformed
-    - Comments about the quality of the test object
-    - Any deviations from the test plan
-  - Should be written with an audience in mind
-    - Stakeholder
-    - Development team
-    - Test Manager
-- *Test Progress Report*
-  - Report made during testingtesting activity
-- *Test Summary Report*
-  - Report made at end of testing activity
-
-
-# Example
+# Context
 In this example the test report is being given to a development team.
 
 ## Test Summary of Paul's Lumber Pricing Calculator
-The testing team has finsihed performing API tests for the pricing calculator backend. We have focused efforts on verifying the integration functionality between the front-end, back-end and other services which use the service. 
+The testing team has finished performing API tests for the pricing calculator backend. We have focused efforts on verifying the integration functionality between the front-end, back-end and other services which use the service. 
 
 ## Tests Performed
 - Functional
