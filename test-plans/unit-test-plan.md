@@ -65,7 +65,6 @@ Unit
 
 
 ### Reporting and Templates
-{How reporting will be handled. What reporting software is to be used. Templates etc..}
 
 | Document | Link To Template |
 |----------|------|
